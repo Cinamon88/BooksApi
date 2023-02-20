@@ -1,4 +1,5 @@
 const cutText = require('../cutText');
+const expect = require('chai').expect;
 
 describe('CutText', () => {
     it('should return an error if "content" arg is not a string', () => {
